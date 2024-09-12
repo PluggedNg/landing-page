@@ -41,9 +41,15 @@ const Hero = () => {
         <img src="/assets/cloud.png" className="w-[100%]" alt="img" />
         <div className="flex items-center justify-center ">
           <div className="absolute bottom-0 flex items-start">
-            <img src="/assets/arrow_left.png" alt="img" />
+            <div className="">
+              <img src="/assets/arrow_left.png" alt="img" />
+              <img src="/assets/hero_four.png" alt="img" className="absolute -left-[8vw]" />
+            </div>
             <img src="/assets/hero_two.png" alt="img" className="" />
-            <img src="/assets/arrow_right.png" alt="img" />
+            <div className="">
+              <img src="/assets/arrow_right.png" alt="img" />
+              <img src="/assets/hero_three.png" alt="img" className="absolute top-10 -right-[8vw]" />
+            </div>
           </div>
         </div>
       </div>
