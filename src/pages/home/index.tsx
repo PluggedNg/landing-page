@@ -32,6 +32,25 @@ const Home = () => {
           />
         </div>
       </div>
+
+      <div className="bg-[url('/assets/plain_bg.png')] bg-no-repeat w-[100%] items-center bg-cover">
+        <div className="w-[85vw] flex justify-between mx-auto pt-[15vh]">
+          <img src="/assets/about_img.png" alt="img" />
+
+          <div className="text-[#fff] pt-[6vh]">
+            <h2 className="text-[60px] font-semibold text-center">About Us</h2>
+            <p className="text-[26px] text-center mt-4">
+              Plugged is an emerging digital agency with a dedicated team of
+              skilled developers and designers. They specialize in various
+              digital services, including web design, web development, app
+              design, app development, graphic design, and brand positioning on
+              social media. Plugged's youthful and passionate team continuously
+              pushes their creative boundaries to deliver exceptional results
+              and enhance their clients' digital experiences
+            </p>
+          </div>
+        </div>
+      </div>
     </div>
   );
 };
