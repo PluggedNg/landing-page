@@ -51,6 +51,16 @@ const Home = () => {
           </div>
         </div>
       </div>
+
+      <div className="bg-[#292727] text-[#fff] pt-10">
+        <h2 className="text-[60px] text-center">
+          Find the best talents for your startups
+        </h2>
+        <p className="text-[26px] text-center">
+          Join forces with expert freelancers who are committed to driving your
+          project forward with creativity and precision.
+        </p>
+      </div>
     </div>
   );
 };
