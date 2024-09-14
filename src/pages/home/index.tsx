@@ -1,5 +1,6 @@
 import Card from "../../components/Card";
 import Hero from "../../components/Hero";
+import { FiveStars } from "../../components/icons";
 
 const Home = () => {
   return (
@@ -56,10 +57,59 @@ const Home = () => {
         <h2 className="text-[60px] text-center">
           Find the best talents for your startups
         </h2>
-        <p className="text-[26px] text-center">
+        <p className="text-[30px] text-center px-[15vw] font-semibold">
           Join forces with expert freelancers who are committed to driving your
           project forward with creativity and precision.
         </p>
+
+        <div className="flex justify-between w-[80vw] relative items-end mx-auto py-20">
+          <div className="bg-[#1c5d99] w-[356px] max-w-[356px] flex flex-col space-y-3 pt-6 rounded-lg items-center">
+            <h2 className="text-[24px] font-semibold">Pelumi Aiyeola</h2>
+            <p>Product Designer</p>
+            <FiveStars />
+            <img
+              src="/assets/talent_one.png"
+              alt="img"
+              className="w-[271px] h-[332px]"
+            />
+          </div>
+          <div className="bg-[#1c5d99] w-[356px] max-w-[356px] flex flex-col space-y-3 pt-6 rounded-lg items-center">
+            <h2 className="text-[24px] font-semibold">Adanma Godwin</h2>
+            <p>Data Analyst</p>
+            <FiveStars />
+            <img
+              src="/assets/talent_two.png"
+              alt="img"
+              className="w-[245px] h-[252px]"
+            />
+          </div>
+          <div className="bg-[#1c5d99] w-[356px] max-w-[356px] flex flex-col space-y-3 pt-6 rounded-lg items-center">
+            <h2 className="text-[24px] font-semibold">Fortune Badmos</h2>
+            <p>Product Manager</p>
+            <FiveStars />
+            <img
+              src="/assets/talent_three.png"
+              alt="img"
+              className="w-[219px] h-[252px]"
+            />
+          </div>
+          <div className="bg-[#1c5d99] w-[356px] max-w-[356px] flex flex-col space-y-3 pt-6 rounded-lg items-center">
+            <h2 className="text-[24px] font-semibold">Okikiola Lawson</h2>
+            <p>Software Developer</p>
+            <FiveStars />
+            <img
+              src="/assets/talent_four.png"
+              alt="img"
+              className="w-[271px] h-[332px]"
+            />
+          </div>
+        </div>
+
+        <div className="flex items-center justify-center">
+          <button className="text-[#1c5d99] font-semibold text-[20px] bg-[#fff] px-10 py-3 rounded-lg mt-10">
+            Get Started
+          </button>
+        </div>
       </div>
     </div>
   );
