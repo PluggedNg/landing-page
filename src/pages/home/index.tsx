@@ -1,6 +1,7 @@
 import Card from "../../components/Card";
 import Hero from "../../components/Hero";
 import { FiveStars } from "../../components/icons";
+import Portfolio from "../../components/Portfolio";
 import Skillset from "../../components/Skillset";
 import Waitlist from "../../components/Waitlist";
 
@@ -116,6 +117,7 @@ const Home = () => {
 
       <Waitlist />
       <Skillset />
+      <Portfolio />
     </div>
   );
 };
