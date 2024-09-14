@@ -1,6 +1,7 @@
 import Card from "../../components/Card";
 import Hero from "../../components/Hero";
 import { FiveStars } from "../../components/icons";
+import Waitlist from "../../components/Waitlist";
 
 const Home = () => {
   return (
@@ -53,7 +54,7 @@ const Home = () => {
         </div>
       </div>
 
-      <div className="bg-[#292727] text-[#fff] pt-10">
+      <div className="bg-[#292727] text-[#fff] pt-10 pb-[15vh]">
         <h2 className="text-[60px] text-center">
           Find the best talents for your startups
         </h2>
@@ -62,7 +63,7 @@ const Home = () => {
           project forward with creativity and precision.
         </p>
 
-        <div className="flex justify-between w-[80vw] relative items-end mx-auto py-20">
+        <div className="flex justify-between w-[80vw] relative items-end space-x-6 mx-auto py-20">
           <div className="bg-[#1c5d99] w-[356px] max-w-[356px] flex flex-col space-y-3 pt-6 rounded-lg items-center">
             <h2 className="text-[24px] font-semibold">Pelumi Aiyeola</h2>
             <p>Product Designer</p>
@@ -106,11 +107,13 @@ const Home = () => {
         </div>
 
         <div className="flex items-center justify-center">
-          <button className="text-[#1c5d99] font-semibold text-[20px] bg-[#fff] px-10 py-3 rounded-lg mt-10">
+          <button className="text-[#1c5d99] font-semibold text-[20px] bg-[#fff] px-[8vw] py-3 rounded-lg ">
             Get Started
           </button>
         </div>
       </div>
+
+      <Waitlist />
     </div>
   );
 };
